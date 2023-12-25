@@ -29,11 +29,13 @@ npx tsc --init , initialize the typescript project
 
 * express itself having the routes use it i.e Router()
 * setting up the swagger
-** swagger-ui
+
+swagger-ui
 ```
 app.use('/api-doc',swaggerUi.server,swaggerUi.setup(swaggerDoc))
 ```
-** swagger.yaml using as swagger doc
+
+swagger.yaml using as swagger doc
 ```
 openapi version
 quick info i.e title, description, version
