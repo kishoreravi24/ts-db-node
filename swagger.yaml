@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  title: Sample API
+  description: Optional multiline or single-line description in HTML.
+  version: 0.1.9
+paths:
+  /test:
+    get:
+      summary: testing the api
+      description: Optional test api route
+      responses:
+        '200': # status code
+          description: A normal hello world! text
+          content:
+            application/text:
+              schema:
+                type: string
